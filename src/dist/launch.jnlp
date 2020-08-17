@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Marina/Dropbox/billyeilish/PracticasDS/Practica2/SCACV/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SCACV</title>
+        <vendor>Marina</vendor>
+        <homepage href=""/>
+        <description>SCACV</description>
+        <description kind="short">SCACV</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="SCACV.jar" main="true"/>
+    </resources>
+    <application-desc main-class="sesion.pkg4.java.Cliente">
+    </application-desc>
+</jnlp>
